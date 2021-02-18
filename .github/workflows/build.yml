@@ -30,7 +30,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          load: true
+          load: false
           context: .
           file: ./java-11/node-15/Dockerfile
           tags: aperrez17/java-node-docker:j11-n15
