@@ -31,6 +31,5 @@ jobs:
         with:
           push: true
           load: false
-          context: .
-          file: ./java-11/node-15/Dockerfile
+          context: ./java-11/node-15
           tags: aperrez17/java-node-docker:j11-n15
