@@ -32,5 +32,4 @@ jobs:
           push: true
           load: false
           context: ./java-11/node-15/
-          file: ./node-15/Dockerfile
           tags: aperrez17/java-node-docker:j11-n15
